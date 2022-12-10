@@ -20,6 +20,11 @@ function reduce() {
   incCounter.innerText = counter
 }
 
+function negative() { if (counter <= 0) {
+  counter = 0;
+  incCounter.innerText = counter;
+}};
+
 btnAdd.addEventListener('click', () => {
   increment();
 });
@@ -30,6 +35,6 @@ btnClear.addEventListener('click', () => {
 
 btnReduce.addEventListener('click', () => {
   reduce();
+  negative();
 });
-
 
