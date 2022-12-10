@@ -1,2 +1,2 @@
-# js-counter
-JavaScript Counter
+#JavaScript Counter
+
